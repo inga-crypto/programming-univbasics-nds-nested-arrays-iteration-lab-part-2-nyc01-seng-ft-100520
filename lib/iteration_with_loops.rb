@@ -8,12 +8,12 @@ while row_index < src.count do
   element_index = 0
   smallest_num = 0
   while element_index < src[row_index].count do
-    if src[row_index][element_index] <=  smallest_num
+    if src[row_index][element_index] ==  smallest_num
     end
     element_index += 1
   end
-  min_temps_arr << smallest_num
+  
   row_index += 1
   end
-
+min_temps_arr << smallest_num
 end
