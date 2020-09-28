@@ -15,5 +15,4 @@ while row_index < src.count do
   min_temps_arr << smallest_num
   row_index += 1
   end
-
 end
